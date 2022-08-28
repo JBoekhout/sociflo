@@ -1,0 +1,17 @@
+# import length label for appmanifest conjunction
+id =40
+netstate_reqs = ["'lert"] #hm; might put this  in appmfest;
+import nodeintfcing.grabstatus as stategrab
+netstate_set = stategrab(netstate_reqs)
+
+STD_PINGFREQKID = 150000 #milisec > 2.5min
+
+pingfreq = STD_PINGFREQKID
+
+def boot: #alocal inject? (injecting bootsequence of this app from external comp(remotely) meh, this app is standardized kid hospitality.)
+     # hooks into status node for situational congruence
+
+    networkstatus = netstate_grab(netstate_reqs)
+    start_loop(networkstatus)
+    #engagement threshold-confirmance
+

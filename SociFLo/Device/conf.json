@@ -1,0 +1,19 @@
+{ 
+        "ID" :        { 'id':0,
+                        'pubkey':'NaN',
+                        'name':'Nando B',
+                        'lineage_id':7083170,
+        },
+         "Presets" :  {
+        
+            
+        },
+        "Apps" : {
+
+        },
+        "Daemons" : {
+                
+        }
+
+    
+}

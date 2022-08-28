@@ -1,0 +1,16 @@
+from re import LOCALE
+import HW.GPS as gpsO
+import HW.Node as node
+from 
+app_id = 39
+def init_loc():
+    for each in node[cat=('locale', app_id), ]
+class LOCALE_PATTERNS(list):
+    def __
+def grab_locale(gp, requestPriority="max"):
+    
+    
+def whodis(loc):
+
+
+
